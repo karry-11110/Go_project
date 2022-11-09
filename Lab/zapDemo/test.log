@@ -1,0 +1,16 @@
+{"level":"debug","ts":1658458939.448371,"msg":"Trying to hit GET request for www.google.com"}
+{"level":"error","ts":1658458939.448371,"msg":"Error fetching URL www.google.com : Error = Get \"www.google.com\": unsupported protocol scheme \"\""}
+{"level":"debug","ts":1658458939.448371,"msg":"Trying to hit GET request for http://www.google.com"}
+{"level":"error","ts":1658458960.521452,"msg":"Error fetching URL http://www.google.com : Error = Get \"http://www.google.com\": dial tcp 31.13.80.169:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+1.6584591474236546e+09	debug	Trying to hit GET request for www.google.com
+1.658459147424178e+09	error	Error fetching URL www.google.com : Error = Get "www.google.com": unsupported protocol scheme ""
+1.658459147424178e+09	debug	Trying to hit GET request for http://www.google.com
+1.6584591684983225e+09	error	Error fetching URL http://www.google.com : Error = Get "http://www.google.com": dial tcp 31.13.80.169:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-07-22T11:07:54.056+0800	DEBUG	Trying to hit GET request for www.google.com
+2022-07-22T11:07:54.068+0800	ERROR	Error fetching URL www.google.com : Error = Get "www.google.com": unsupported protocol scheme ""
+2022-07-22T11:07:54.068+0800	DEBUG	Trying to hit GET request for http://www.google.com
+2022-07-22T11:08:15.134+0800	ERROR	Error fetching URL http://www.google.com : Error = Get "http://www.google.com": dial tcp 31.13.80.169:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-07-22T11:08:34.321+0800	DEBUG	zapDemo/main.go:85	Trying to hit GET request for www.google.com
+2022-07-22T11:08:34.333+0800	ERROR	zapDemo/main.go:88	Error fetching URL www.google.com : Error = Get "www.google.com": unsupported protocol scheme ""
+2022-07-22T11:08:34.333+0800	DEBUG	zapDemo/main.go:85	Trying to hit GET request for http://www.google.com
+2022-07-22T11:08:55.380+0800	ERROR	zapDemo/main.go:88	Error fetching URL http://www.google.com : Error = Get "http://www.google.com": dial tcp 31.13.80.169:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.

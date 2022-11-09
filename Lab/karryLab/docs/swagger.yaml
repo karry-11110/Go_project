@@ -1,0 +1,11 @@
+basePath: /api/v1
+host: 127.0.0.1:8084
+info:
+  contact:
+    name: wangkun
+    url: karry_11110@163.com
+  description: Go web开发进阶项目实战课程karryLab
+  title: karryLab项目接口文档
+  version: "1.0"
+paths: {}
+swagger: "2.0"
